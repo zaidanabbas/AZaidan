@@ -1,0 +1,149 @@
+* {
+  font-family: "Abhaya Libre";
+  font-weight: lighter;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+.grid,
+.price {
+  text-align: center;
+  padding: 20px;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: auto;
+  background-color: rgb(238, 232, 225);
+}
+a {
+  color: black;
+}
+.navigation {
+  background-color: #535353;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+}
+.logo {
+  width: 125px;
+  height: 40px;
+  text-align: left;
+}
+.logo2 {
+  float: left;
+}
+.drop1 {
+  width: 30px;
+  height: auto;
+  padding-right: 20px;
+}
+.right-corner {
+  background-color: #535353;
+  border: none;
+  float: right;
+  position: relative;
+  top: 7px;
+}
+.img1 {
+  width:300px;
+  height:auto;
+  border-radius: 7%;
+}
+ul {
+  list-style: none;
+  list-style-position: initial;
+  list-style-image: initial;
+  list-style-type: none;
+}
+.sidenav {
+  height: auto;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #535353;
+  overflow-x: hidden;
+  transition: 0.7s;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.sidenav a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.7s;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 2px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.start {
+  height: 500px;
+}
+.start h1 {
+  position: relative;
+  top: 120px;
+}
+.start p {
+  position: relative;
+  top: 120px;
+}
+.price {
+  border-radius: 7%;
+  display: flex;
+  justify-content: center;
+}
+.hr {
+  background-color: #535353;
+  max-width: 550px;
+  width: 100%;
+  height: 2px;
+  border: none;
+}
+li a {
+  text-decoration: none;
+  color: #535353;
+}
+.hr2 {
+  background-color: #535353;
+  width: 100%;
+  height: 2px;
+  border: none;
+}
+.button {
+  background-color: rgb(238, 232, 225);
+  width: 80px;
+  height: 40px;
+  position:relative;
+  top: 90px;
+  right: 120px;
+}

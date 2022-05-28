@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\..\\..\\Downloads\\stripe-sample-code"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "AZaidan2"
+  }
+}
